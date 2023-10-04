@@ -5,6 +5,7 @@ from datetime import datetime
 from pytz import timezone
 
 
+
 def amazonBusca(id, buscaproduto):
 
     http = urllib3.PoolManager()

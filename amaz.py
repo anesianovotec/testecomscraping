@@ -18,6 +18,7 @@ def amazonBusca(id, buscaproduto):
   precos = []
   links = []
   nomes = []
+  
   if (statusHTTP == 200):
     soup = BeautifulSoup(r.data, 'html.parser') 
     for elem in soup:
